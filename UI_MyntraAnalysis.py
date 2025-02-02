@@ -13,7 +13,7 @@ if r == 'Home':
     st.title('MYNTRA DATA ANALYSIS')
     st.subheader("Welcome to the data analysis of the Myntra dataset from Kaggle")
     st.markdown("*You can visualize the exploratory data analysis on the next page* 😎")
-    st.image("C:/Users/hp/Desktop/MyntraProject/myntra-logo.png")
+    st.image("myntra-logo.png")
 
 # Myntra data analysis Page
 elif r == 'Myntra Data Analysis':
