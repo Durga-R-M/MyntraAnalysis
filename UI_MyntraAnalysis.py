@@ -5,6 +5,10 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import os
 
+for dirname, _, filenames in os.walk('/kaggle/input'):
+    for filename in filenames:
+        print(os.path.join(dirname, filename))
+        
 # Sidebar navigation
 r = st.sidebar.radio('Main Menu', ['Home', 'Myntra Data Analysis', 'Pie Chart'])
 
@@ -17,7 +21,8 @@ if r == 'Home':
 
 # Myntra data analysis Page
 elif r == 'Myntra Data Analysis':
-    df=pd.read_csv("C:/Users/hp/Desktop/MyntraProject/Myntra Fasion Clothing.csv",encoding="ISO-8859-1")
+    df = pd.read_csv('../input/myntra-fashion-dataset/Myntra Fasion Clothing.csv')
+    #df=pd.read_csv("C:/Users/hp/Desktop/MyntraProject/Myntra Fasion Clothing.csv",encoding="ISO-8859-1")
 
     st.title("Top 15 Original Prices vs. Brand Names")
 
