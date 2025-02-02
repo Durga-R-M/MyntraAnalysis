@@ -21,8 +21,8 @@ if r == 'Home':
 
 # Myntra data analysis Page
 elif r == 'Myntra Data Analysis':
-    df = pd.read_csv('../input/myntra-fashion-dataset/Myntra Fasion Clothing.csv')
-    #df=pd.read_csv("C:/Users/hp/Desktop/MyntraProject/Myntra Fasion Clothing.csv",encoding="ISO-8859-1")
+    #df = pd.read_csv('../input/myntra-fashion-dataset/Myntra Fasion Clothing.csv')
+    df=pd.read_csv("C:/Users/hp/Desktop/MyntraProject/Myntra Fasion Clothing.csv",encoding="ISO-8859-1")
 
     st.title("Top 15 Original Prices vs. Brand Names")
 
