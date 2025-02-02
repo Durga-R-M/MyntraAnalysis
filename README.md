@@ -1,5 +1,5 @@
-Myntra Data Analysis
-In this project, the objective is to analyse te myntra sales data based on the various factors like cateory, brand and gender etc. and to find out the following: 
+**Myntra Data Analysis
+**In this project, the objective is to analyse the myntra sales data based on the various factors like category, brand and gender etc. and to find out the following: 
 1. Top 15 Original Prices vs. Brand Names
 2. Top 15 Brand Names
 3. Top 8 Categories
